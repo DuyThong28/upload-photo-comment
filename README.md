@@ -1,4 +1,4 @@
-# Upload photo with comment'
+# Upload photo with comment
 <b>Features:</b>
 <ul>
   <li>Upload a photo</li>
