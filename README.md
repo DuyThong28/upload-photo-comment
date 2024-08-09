@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Upload photo with comment'
+<b>Features:</b>
+<ul>
+  <li>Upload a photo</li>
+  <li>Add a comment to a photo</li>
+  <li>Display all uploaded photos and its comments </li>
+</ul>
 
-## Getting Started
+# Tech stack
+<ul>
+  <li>
+    Frontend: Next.js, TypeScript, ant.design
+  </li>
+  <li>
+    Backend: Next JS API routes, prisma ORM
+  </li>
+  <li>
+Database: PostgreSQL
+  </li>
+  <li>Deploy: vercel & render</li>
+</ul>
 
-First, run the development server:
+# Install
+
+```bash
+git clone https://github.com/DuyThong28/upload-photo-comment.git 
+```
+```bash
+  npm install
+```
+<b>Create a .env file at the same level with src folder and paste this text to the .env file</b>
+```bash
+POSTGRES_DATABASE="verceldb"
+POSTGRES_HOST="ep-curly-moon-a44bhmod-pooler.us-east-1.aws.neon.tech"
+POSTGRES_PASSWORD="yEcr79QmwFNY"
+POSTGRES_PRISMA_URL="postgres://default:yEcr79QmwFNY@ep-curly-moon-a44bhmod-pooler.us-east-1.aws.neon.tech/verceldb?pgbouncer=true&connect_timeout=15&sslmode=require"
+POSTGRES_URL="postgres://default:yEcr79QmwFNY@ep-curly-moon-a44bhmod-pooler.us-east-1.aws.neon.tech/verceldb?sslmode=require"
+POSTGRES_URL_NON_POOLING="postgres://default:yEcr79QmwFNY@ep-curly-moon-a44bhmod.us-east-1.aws.neon.tech/verceldb?sslmode=require"
+POSTGRES_URL_NO_SSL="postgres://default:yEcr79QmwFNY@ep-curly-moon-a44bhmod-pooler.us-east-1.aws.neon.tech/verceldb"
+POSTGRES_USER="default"
+CLOUD_NAME="dchhm36es"
+API_KEY="967372242259833"
+API_SECRET="aMfjGbwYcIEshVOSOPS0KON0l0Y"
+CLOUDINARY_URL=cloudinary://967372242259833:aMfjGbwYcIEshVOSOPS0KON0l0Y@dchhm36es
+CLOUDINARY_API_KEY="967372242259833"
+CLOUDINARY_API_SECRET="aMfjGbwYcIEshVOSOPS0KON0l0Y"
+NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME="dchhm36es"
+```
+```bash
+npx prisma studio
+```
+<b>
+  
+Create a new terminal</b>
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
