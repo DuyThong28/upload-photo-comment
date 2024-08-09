@@ -1,0 +1,11 @@
+.photo-container {
+  background: white;
+  width: 25%;
+  text-align: center;
+}
+
+.image {
+    height: 300px;
+    overflow: hidden;
+}
+

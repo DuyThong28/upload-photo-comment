@@ -203,6 +203,39 @@
   }
 }
 
+.page {
+  background: #44edfc;
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 0px;
+  background-color: #093031;
+}
+
+.btn-primary:hover {
+  background-color: #0e6467;
+}
+
+.btn-primary:active {
+  background-color: #062122;
+}
+
+.input {
+  background-color: white;
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid gray;
+  color: black;
+}
+
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
   .grid {
