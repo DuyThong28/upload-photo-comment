@@ -28,7 +28,7 @@ git clone https://github.com/DuyThong28/upload-photo-comment.git
 ```bash
   npm install
 ```
-<b>Create a .env file at the same level with src folder and paste this text to the .env file</b>
+<b>If the .env does not exist, create a .env file at the same level with src folder and paste this text to the .env file</b>
 ```bash
 POSTGRES_DATABASE="verceldb"
 POSTGRES_HOST="ep-curly-moon-a44bhmod-pooler.us-east-1.aws.neon.tech"
