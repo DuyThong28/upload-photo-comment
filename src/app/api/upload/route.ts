@@ -3,7 +3,7 @@ import { uploadImage } from "../../../../lib/cloundinary";
 import prisma from "../../../../lib/prisma";
 import { NextRequest, NextResponse } from "next/server";
 
-export const config = {
+const config = {
   api: {
     bodyParser: false,
   },
